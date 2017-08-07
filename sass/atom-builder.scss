@@ -1,0 +1,17 @@
+@import "variables";
+/*--------------------------------------------------------------
+# Atom Builder widget base styles 
+--------------------------------------------------------------*/
+.atom-builder-widget {
+    margin: 3em auto;
+    max-width: $breakpoint_desktop;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .widget-title {
+        text-align: center;
+        margin-bottom: 2em;
+	}
+}

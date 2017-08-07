@@ -1,0 +1,79 @@
+@import "../variables";
+/*--------------------------------------------------------------
+# Atom Post & Page Widget 
+--------------------------------------------------------------*/
+.atom-builder-page-widget-thumbnail,
+.atom-builder-post-widget-thumbnail {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+.atom-builder-widget {
+    
+    .atom-builder-page-widget-header,
+    .atom-builder-post-widget-header {
+        text-align: center;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: $breakpoint_laptop) {
+
+    .atom-builder-widget {
+        
+        .atom-builder-page-widget-entry,
+        .atom-builder-post-widget-entry {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .atom-builder-page-widget-header,
+        .atom-builder-post-widget-header {
+            flex-basis: 100%;
+            order: -2;
+        }
+
+        .atom-builder-page-widget-thumbnail,
+        .atom-builder-post-widget-thumbnail {
+            margin-bottom: 0;
+        }
+
+        .left-thumbnail,
+        .right-thumbnail {
+            flex: 2 2 1px;
+        }
+
+        .left-thumbnail {
+            margin-right: 3em;
+        }
+
+        .right-thumbnail {
+            margin-left: 3em;
+            order: 1;
+        } 
+
+        .one-third {
+            flex: 1 1 1px;
+        }
+
+        .one-half {
+            flex: 2 2 1px;
+        }
+
+        .two-thirds {
+            flex: 4 4 1px;
+        }    
+    }
+}
