@@ -39,3 +39,7 @@ function mythemeprefix_add_atom_builder_support(){
 * Replace the `get_template_part()` function call with `atom_builder_get_template_part()`, with the same parameters. (Basically all you need to do is prefix it.)
 * Now everything should work fine. Your whole template is replaced with widgets now, not just your content.
 
+If you have any questions, email me at [vincentdubroeucq.com](https://vincentdubroeucq.com/contact/ "Contact")
+
+[https://vincentdubroeucq.com](https://vincentdubroeucq.com)
+
