@@ -3,8 +3,8 @@
 Plugin Name: Atom Builder
 Plugin URI:  https://wordpress.org/plugins/atom-builder
 Description: This plugin enables you to painlessly build more complex layout, the WordPress Way.
-Version:     1.0.1
-Author:      vincentdubroeucq
+Version:     1.0.2
+Author:      Vincent Dubroeucq
 Author URI:  https://vincentdubroeucq.com/
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
